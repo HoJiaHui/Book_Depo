@@ -3,7 +3,7 @@ import 'package:book_depo/book.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:book_depo/bookdetailscreen.dart';
+import 'package:book_depo/detailscreen.dart';
 import 'package:progress_dialog/progress_dialog.dart';
 
 

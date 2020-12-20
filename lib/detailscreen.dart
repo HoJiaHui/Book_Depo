@@ -27,6 +27,9 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
         title: Text(widget.book.booktitle),
         ),
       body: Center(
+        child: Padding(
+                padding:
+                    EdgeInsets.all(30),
         child: SingleChildScrollView(
         child: Column(children: [
           Container(
@@ -144,7 +147,7 @@ SizedBox(height: 10),
   )
   ),
   )
-  );
+  ));
 
  } 
 }
